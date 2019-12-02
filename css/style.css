@@ -1,0 +1,12 @@
+body {
+            position: relative;
+            }
+            #intro {padding-top:80px; background-color: #e8eaed; margin-bottom: 40px; padding-bottom: 20px;}
+            #feedback {padding-top:40px;background-color: white;padding-bottom: 20px;}
+            #gallery {padding-top:50px;background-color: white;padding-bottom: 20px;}
+            #features {padding-top:80px;background-color: white;padding-bottom: 20px;}
+            #faq {padding-top:50px;background-color: white;padding-bottom: 20px;}
+            #contactUS {padding-top:50px; background-color: white;padding-bottom: 20px;}
+            .btn-dark {background-color: black; color: #fff; width: 100%;}
+            #footer { background-color: black; color: #fff; }
+            #subscribe{padding-top:20px; background-color: #e8eaed;padding-bottom: 20px;}

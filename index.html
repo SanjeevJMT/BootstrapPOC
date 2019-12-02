@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">WiredWiki</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#feedback">Feedback</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#faq">Faq</a></li>
+                            <li><a href="#contactUS">ContactUS</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <p></p>
+                                <button type="button" class="btn btn-warning btn-sm">Download App</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="intro" class="container-fluid">
+            <h1 class="text-center"><big>Website App</big></big></h1>
+            <p class="text-center">Bringing brands to life with refreshing online experience.  We create awesomme websites at the forefront of the web.</p>
+            <div class='wrapper text-center'>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success">Download App</button>
+                    <button type="button" class="btn btn-warning">Web Store</button>
+                    <button type="button" class="btn btn-info">Spread the words</button>
+                </div>
+            </div>
+        </div>
+        <div id="feedback" class="container-fluid">
+            <div class="container">
+                <h3>Feedback.<small>Checkout the awesome feedback</small></h3>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>"I am  really happy with your service. It is esceotional. Web design enterprise is just great. I am impressed."</p>
+                        <button type="button" class="btn btn-dark">Darwin</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>"I am  really happy with your service. It is esceotional. Web design enterprise is just great. I am impressed."</p>
+                        <button type="button" class="btn btn-dark">Johns</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>"I am  really happy with your service. It is esceotional. Web design enterprise is just great. I am impressed."</p>
+                        <button type="button" class="btn btn-dark">Hema</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="subscribe" class="container-fluid">
+            <h4 class="text-center">Subscribe for more free stuffs</h4>
+            <p class="text-center"><small>Enter your name and email</small></p>
+            <p class="text-center">  <label for="exampleInputEmail1">Name:</label>
+                <input type="email"   placeholder="Enter your Name!!">  <label for="exampleInputEmail1">Email:</label>
+                <input type="email"   placeholder="Enter your email!!">&nbsp<button type="button" class="btn btn-default btn-sm">Subscribe</button>
+            </p>
+        </div>
+        <div id="gallery" class="container">
+            <h3>Gallery.<small>Checkout the awesome gallery</small></h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/1.jpg" alt="fort" style="width:100%; height: 350px">
+                    </div>
+                    <div class="item">
+                        <img src="images/2.jpg" alt="fort2" style="width:100%;height: 350px">
+                    </div>
+                    <div class="item">
+                        <img src="images/3.jpg" alt="fort3" style="width:100%;height: 350px">
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div id="features" class="container">
+            <h3>Features.<small>Some of the coolest features of this app.</small></h3>
+            <hr>
+            <div class="row">
+                <div class="col-sm-9">
+                    <h4>This is mobile Technology. </h4>
+                    <p> <small>This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. This is mobile Technology. </small></p>
+                </div>
+                <div class="col-sm-3"> <img src="images/mt.png" alt="mobile" style="width:100%;height: 350px">
+                </div>
+                <div class="col-sm-9">
+                    <h4>This is Global Technology.</h4>
+                    <p> <small>This is Global Technology. I am  really happy with your service. It is esceotional.It is esceotional. Web design enterprise is just great. I am impressed.""I am  really happy with your service. It is esceo Web design enterprise is just great. I am impressed.""I am  really happy with your service. It is esceotional. Web design enterprise is just great. I am impressed."</small></p>
+                </div>
+                <div class="col-sm-3"> <img src="images/gt.jpg" alt="Global" style="width:100%;height: 350px">
+                </div>
+            </div>
+        </div>    
+            <div id="faq" class="container">
+                <h3>Faq.<small>Engaging with customers</small></h3>
+                <div class="well well-sm">Question 1??</div>
+                <div class="well well-sm">Question 2??</div>
+                <div class="well well-sm">Question 3??</div>
+            </div>
+            <div id="contactUS" class="container">
+                <h3>Contact Us.<small>Contact us for more</small></h3>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p> <small>Send us a message or contact us from the address below.</small></p>
+                        <div class="col-sm-8">
+                            <p> <small><b>Website Pvt. ltd.</b><br>111 Malviya Nagar,<br>plot No.- 45<br>+91 1234567890<br> New Delhi, 110011</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <form class="form-horizontal" action="/action_page.php">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="email">Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="pwd" placeholder="Enter Name" name="pwd">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Email:</label>
+                                <div class="col-sm-10">          
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter Email" name="pwd">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Your Website:</label>
+                                <div class="col-sm-10">          
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter Website" name="pwd">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Message:</label>
+                                <div class="col-sm-10">          
+                                    <textarea class="form-control" rows="8" id="comment" placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-info">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        <div id="footer" class="container-fluid">
+            <div class="container">
+                <h4 class="text-center">Subscribe for more free stuffs</h4>
+                <p class="text-center"><small>Enter your name and email</small></p>
+                <p class="text-center">  <label for="exampleInputEmail1">Name:</label>
+                    <input type="email"   placeholder="Enter your Name!!">  <label for="exampleInputEmail1">Email:</label>
+                    <input type="email"   placeholder="Enter your email!!">&nbsp<button type="button" class="btn btn-default btn-sm">Subscribe</button>
+                </p>
+                <hr>
+                <p class="text-center"> <img src="images/twitter.png" height="20px" width="20px">Twitter <img src="images/fb.png" height="20px" width="20px">Facebook <img src="images/Youtube.png" height="20px" width="20px"> Youtube</p>
+                <p class="text-right"><span class="glyphicon glyphicon-heart"></span>&nbsp&nbsp   Coded by Sanjeev </p>
+            </div>
+        </div>
+    </body>
+</html>
